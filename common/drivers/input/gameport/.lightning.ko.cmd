@@ -1,0 +1,1 @@
+cmd_drivers/input/gameport/lightning.ko := /opt/arm-2009q3/bin/arm-none-eabi-ld -EL -r  -T /home/kissingmylove/kernel/common/scripts/module-common.lds --build-id -o drivers/input/gameport/lightning.ko drivers/input/gameport/lightning.o drivers/input/gameport/lightning.mod.o

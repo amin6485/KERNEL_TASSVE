@@ -1,0 +1,1 @@
+cmd_lib/lzo/lzo_compress.ko := /opt/arm-2009q3/bin/arm-none-eabi-ld -EL -r  -T /home/kissingmylove/kernel/common/scripts/module-common.lds --build-id -o lib/lzo/lzo_compress.ko lib/lzo/lzo_compress.o lib/lzo/lzo_compress.mod.o

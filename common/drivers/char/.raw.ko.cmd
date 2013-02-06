@@ -1,0 +1,1 @@
+cmd_drivers/char/raw.ko := /opt/arm-2009q3/bin/arm-none-eabi-ld -EL -r  -T /home/kissingmylove/kernel/common/scripts/module-common.lds --build-id -o drivers/char/raw.ko drivers/char/raw.o drivers/char/raw.mod.o

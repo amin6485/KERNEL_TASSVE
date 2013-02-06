@@ -1,0 +1,1 @@
+cmd_drivers/mfd/sm501.ko := /opt/arm-2009q3/bin/arm-none-eabi-ld -EL -r  -T /home/kissingmylove/kernel/common/scripts/module-common.lds --build-id -o drivers/mfd/sm501.ko drivers/mfd/sm501.o drivers/mfd/sm501.mod.o

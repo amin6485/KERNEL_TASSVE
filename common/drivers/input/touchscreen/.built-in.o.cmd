@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.o :=  /opt/arm-2009q3/bin/arm-none-eabi-ld -EL    -r -o drivers/input/touchscreen/built-in.o drivers/input/touchscreen/synaptics_i2c_rmi_tma340_tassve.o drivers/input/touchscreen/melfas_ts_mms128_tasscooper.o drivers/input/touchscreen/mcs8000_download_tasscooper.o drivers/input/touchscreen/mms100_ISC_download_tasscooper.o 

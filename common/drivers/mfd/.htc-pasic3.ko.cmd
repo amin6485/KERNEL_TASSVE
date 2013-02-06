@@ -1,0 +1,1 @@
+cmd_drivers/mfd/htc-pasic3.ko := /opt/arm-2009q3/bin/arm-none-eabi-ld -EL -r  -T /home/kissingmylove/kernel/common/scripts/module-common.lds --build-id -o drivers/mfd/htc-pasic3.ko drivers/mfd/htc-pasic3.o drivers/mfd/htc-pasic3.mod.o
